@@ -87,6 +87,11 @@ p{
     align-items: center;
 }
 
+.modifier-profil{
+    color: inherit;
+    text-decoration: none;
+}
+
 .modifier-profil img, .albums img, .stats img, .abonnement img{
     margin-bottom: 0;
 }
