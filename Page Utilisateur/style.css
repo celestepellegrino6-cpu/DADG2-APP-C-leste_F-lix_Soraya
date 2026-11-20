@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+
+body{
+    font-family: roboto condensed;
+    background-image: url("/images/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    gap: 20px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.tabbar{
+    background-color: #030409;
+    height: 35px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.tabbar img{
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-style: italic;
+    font-size: 18pt;
+    margin-bottom: 25px;
+}
+
+p{
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 10pt;
+}
+
+.modifier-profil, .albums, .stats, .abonnement{
+    background-color: #030409;
+    gap: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin: 6px;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.modifier-profil img, .albums img, .stats img, .abonnement img{
+    margin-bottom: 0;
+}
